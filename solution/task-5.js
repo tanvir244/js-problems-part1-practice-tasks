@@ -15,7 +15,7 @@ console.log(randomNumber);
 
 // different way / more efficient way
 function getRandomNumber(min, max){
-    let randomNumber = Math.floor(Math.random() * (max - min + 1)) + 1;
+    let randomNumber = Math.floor(Math.random() * (max - min + 1)) + 1;   //[এইখানে মনে হইতে পারে (max - min + 1) এটা কোই থেকে আসলো, কেন লিখলাম ? আসলে এটা কিছুই না, এটার মানে হইলো ]
     return randomNumber;
 } 
 const lottery = getRandomNumber(1, 6);
